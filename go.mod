@@ -4,7 +4,6 @@ go 1.15
 
 require (
 	github.com/fatih/structtag v1.2.0
-	github.com/go-logr/logr v0.4.0 // indirect
 	github.com/go-logr/zapr v0.4.0
 	github.com/golang/snappy v0.0.2 // indirect
 	github.com/google/go-cmp v0.5.6
@@ -21,8 +20,8 @@ require (
 	golang.org/x/sys v0.0.0-20210630005230-0f9fa26af87c // indirect
 	golang.org/x/tools v0.1.5 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
-	k8s.io/api v0.19.2
-	k8s.io/apimachinery v0.19.2
-	k8s.io/client-go v0.19.2
+	k8s.io/api v0.22.3
+	k8s.io/apimachinery v0.22.3
+	k8s.io/client-go v0.22.3
 	sigs.k8s.io/controller-runtime v0.7.0
 )
